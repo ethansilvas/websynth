@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div className="Keyboard">
-        <Keyboard keyboard="keyboard"/>
+        <Keyboard />
       </div>
     );
   }
