@@ -26,6 +26,7 @@ li {
     left: 9em;
 }
 
+//white keys
 ul .white {
     height: 200px;
     width: 45px;
@@ -38,6 +39,7 @@ ul .white {
     background: white;
 }
 
+//when white keys are pressed
 ul .white:active {
     border-top: 1px solid #777;
     border-left: 1px solid #999;
@@ -47,6 +49,7 @@ ul .white:active {
     background: linear-gradient(to top, #fff 0%, #e9e9e9 100%);
 }
 
+//black keys
 ul .black {
     height: 120px;
     width: 28px;
@@ -57,20 +60,18 @@ ul .black {
     background: linear-gradient(45deg, #222 0%, #555 100%);
 }
 
+//when black keys are pressed
 .black:active {
     box-shadow: -1px -1px 2px rgba(255, 255, 255, 0.2) inset,
         0 -2px 2px 3px rgba(0, 0, 0, 0.6) inset, 0 1px 2px rgba(0, 0, 0, 0.5);
     background: linear-gradient(to left, #444 0%, #222 100%);
 }
 
-.a,
-.b,
-.d,
-.e,
-.g {
+.a,.b,.d,.e,.g {
     margin: 0 0 0 -12px;
 }
 
+//round out the edges of the last keys on each end
 ul li:first-child {
     border-radius: 5px 0 5px 5px;
 }
