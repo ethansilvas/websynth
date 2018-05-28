@@ -39,7 +39,14 @@ function Keyboard() {
                 
                 <li className="br"></li>
                 <li className="right"></li>
-            </ul>
+
+                <li className="mod l">
+                    <input type="range" />
+                </li>
+                <li className="mod r">
+                    <input type="range" />  
+                </li>       
+            </ul>    
         </div>
     );
 }
