@@ -1,3 +1,5 @@
+<img width="983" alt="Screen Shot 2019-03-22 at 11 14 53 PM" src="https://user-images.githubusercontent.com/22532512/54862457-77fa3f00-4cf8-11e9-9fc1-fb3a8414c821.png">
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
